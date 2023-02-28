@@ -7,6 +7,14 @@ For this project I will built a web application which will show a map of City of
 
 [leaflet](https://leafletjs.com/download.html)
 
+#### URL
+
+[Building Permits GeoJson URL](https://data.calgary.ca/resource/c2es-76ed.geojson)
+
+##### Dataset
+
+[Building Permits](https://data.calgary.ca/Business-and-Economic-Activity/Building-Permits/c2es-76ed)
+
 ##### Plugins
 
 [leaflet-ajax](https://github.com/calvinmetcalf/leaflet-ajax)<br>
