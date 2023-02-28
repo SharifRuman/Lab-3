@@ -7,6 +7,12 @@ For this project I will built a web application which will show a map of City of
 
 [leaflet](https://leafletjs.com/download.html)
 
+##### Plugins
+
+[leaflet-ajax](https://github.com/calvinmetcalf/leaflet-ajax)
+[OverlappingMarkerSpiderfier-Leaflet](https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet)
+[Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)
+
 ##### Files:
  1. assets
     1. style.css
@@ -21,12 +27,6 @@ For this project I will built a web application which will show a map of City of
     5. MarkerCluster.Default.css
 3. calgary.json
 4. index.html
-
-##### Plugins
-
-[leaflet-ajax](https://github.com/calvinmetcalf/leaflet-ajax)
-[OverlappingMarkerSpiderfier-Leaflet](https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet)
-[Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)
 
 ##### Requirements
 
