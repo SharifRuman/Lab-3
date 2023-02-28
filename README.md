@@ -9,8 +9,8 @@ For this project I will built a web application which will show a map of City of
 
 ##### Plugins
 
-[leaflet-ajax](https://github.com/calvinmetcalf/leaflet-ajax)( <br> )
-[OverlappingMarkerSpiderfier-Leaflet](https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet)( <br> )
+[leaflet-ajax](https://github.com/calvinmetcalf/leaflet-ajax)<br>
+[OverlappingMarkerSpiderfier-Leaflet](https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet)<br>
 [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)
 
 ##### Files:
