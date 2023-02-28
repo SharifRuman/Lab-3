@@ -12,9 +12,22 @@
 	    <link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
     </head>
     <body>
-        <div id="map">
+        <div id="map"></div>
 
+        <div id="time-ranges" class="leaflet-bar">
+            <form action="#" id="form">
+              <label for="from">
+                From
+                <input id="from" type="date" value="2022-12-25" name="from" />
+              </label>
+              <label for="to">
+                To
+                <input id="to" type="date" value="2022-12-31" name="to" />
+              </label>
+              <input type="submit" value="Update" />
+            </form>
         </div>
+
         <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
         <script type="text/javascript" src="dist/leaflet.markercluster-src.js"></script>
