@@ -14,7 +14,7 @@ For this project I will built a web application which will show a map of City of
 
 ##### Dataset
 
-[Building Permits](https://data.calgary.ca/Business-and-Economic-Activity/Building-Permits/c2es-76ed)
+[Building Permits](https://data.calgary.ca/Business-and-Economic-Activity/Building-Permits/c2es-76ed)<br>
 [2017 Traffic Incidents dataset](https://data.calgary.ca/Transportation-Transit/Traffic-Incidents-Archive-2017/himp-urp7/data)
 
 ##### Plugins
