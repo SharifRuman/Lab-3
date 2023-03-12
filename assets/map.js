@@ -15,7 +15,7 @@ var map = L.mapbox.map('map')
 
 yes.onclick = function(){
   if(y === 1){
-    map.addLayer(L.mapbox.styleLayer('mapbox://styles/sharifruman/clf59c0vo002e01pw08c580us'));
+    map.addLayer(L.mapbox.styleLayer('mapbox://styles/sharifruman/clf59c0vo002e01pw08c580us/draft'));
     y = 0;
   }else{
     map.addLayer(L.mapbox.styleLayer('mapbox://styles/sharifruman/clf5e1xes002i01pwo6ix6auh'));
