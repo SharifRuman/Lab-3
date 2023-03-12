@@ -26,7 +26,7 @@ For this project I will built a web application which will show a map of City of
 #### Mapbox
 
 [API](https://api.mapbox.com/styles/v1/sharifruman/clf59c0vo002e01pw08c580us.html?title=view&access_token=pk.eyJ1Ijoic2hhcmlmcnVtYW4iLCJhIjoiY2xmNTV5N3JqMGZ0MzNxcXJ1amJrM3U5eSJ9.o6ps2oN5TcXgMKy5ArEJWA&zoomwheel=true&fresh=true#9.1/51.0876/-113.778)<br>
-[Style URL](mapbox://styles/sharifruman/clf59c0vo002e01pw08c580us)
+Style URL: mapbox://styles/sharifruman/clf59c0vo002e01pw08c580us
 
 ##### Files:
  1. assets
