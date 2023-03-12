@@ -6,10 +6,11 @@
         <title>Calgary</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
         <link rel="stylesheet" href="assets/style.css">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
         <link rel="stylesheet" href="dist/MarkerCluster.css" />
-	    <link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
+	     <link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
     </head>
     <body>
         <div id="map"></div>
@@ -26,9 +27,12 @@
               </label>
               <input type="submit" value="Filter" />
             </form>
+            <br>
+            <button class="button-1" id="toggle">Toggle On/Off Traffic Incidents Layer</button>
         </div>
 
         <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
         <script type="text/javascript" src="dist/leaflet.markercluster-src.js"></script>
         <script type="text/javascript" src="dist/leaflet.ajax.js"></script>
