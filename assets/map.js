@@ -4,13 +4,34 @@ const startTimeInput = document.getElementById("from");
 
 const endTimeInput = document.getElementById("to");
 
-var map = L.map('map').setView([51.0448, -114.064], 11);
+var y = 1;
 
-var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-});
-osm.addTo(map);
+var yes = document.getElementById("toggle");
+
+L.mapbox.accessToken = 'pk.eyJ1Ijoic2hhcmlmcnVtYW4iLCJhIjoiY2xmNTV5N3JqMGZ0MzNxcXJ1amJrM3U5eSJ9.o6ps2oN5TcXgMKy5ArEJWA';
+var map = L.mapbox.map('map')
+  .setView([51.0448, -114.064], 11)
+  .addLayer(L.mapbox.styleLayer('mapbox://styles/sharifruman/clf5e1xes002i01pwo6ix6auh'));
+
+yes.onclick = function(){
+  if(y === 1){
+    map.addLayer(L.mapbox.styleLayer('mapbox://styles/sharifruman/clf59c0vo002e01pw08c580us'));
+    y = 0;
+  }else{
+    map.addLayer(L.mapbox.styleLayer('mapbox://styles/sharifruman/clf5e1xes002i01pwo6ix6auh'));
+    y = 1;
+  }
+  
+}
+
+
+// var map = L.map('map').setView([51.0448, -114.064], 11);
+
+// var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//     maxZoom: 19,
+//     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+// });
+// osm.addTo(map);
 
 var houseIcon = L.icon({
     iconUrl: 'assets/home.png',
